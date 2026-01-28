@@ -40,9 +40,9 @@ public class Pattern {
 	}
 
 	public void fact(int number) {
-		long ans=1;
+		long answer=1;
 		for (int i=1;i<=number;i++) {
-			ans=i*ans;
+			ans=i*answer;
 		}
 		
 		System.out.println(ans);
