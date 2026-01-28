@@ -32,7 +32,7 @@ public class Pattern {
 		}
 		
 	}
-private void rectangle(int size) {
+	private void rectangle(int size) {
 		for(int i=0;i<size;i++) {
 			for(int j=0;j<size;j++)
 			{System.out.print("*");}
